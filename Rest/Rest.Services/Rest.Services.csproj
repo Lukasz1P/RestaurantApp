@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Language>10</Language>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Rest.Domain\Rest.Domain.csproj" />
+        <ProjectReference Include="..\Rest.IData\Rest.IData.csproj" />
+        <ProjectReference Include="..\Rest.IServices\Rest.IServices.csproj" />
+    </ItemGroup>
+
+</Project>

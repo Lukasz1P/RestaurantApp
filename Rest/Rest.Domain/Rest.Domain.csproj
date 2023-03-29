@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+       <Language>10</Language>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Rest.Common\Rest.Common.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+  <Language>10</Language>
+    </PropertyGroup>
+
+    <ItemGroup>
+     
+      <ProjectReference Include="..\Rest.IData\Rest.IData.csproj" />
+  
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MySql.EntityFrameworkCore" Version="6.0.1" />
+    </ItemGroup>
+
+</Project>
